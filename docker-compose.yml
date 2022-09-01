@@ -1,0 +1,10 @@
+services:
+  openvpn-client:
+    image: blobaugh/openvpn-client
+    container_name: openvpn-client
+    env_file:
+      - .env
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun:/dev/net/tun

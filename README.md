@@ -10,8 +10,6 @@ Running a vpn client as a Docker container provides a method of encrypting commu
 
 ### Getting the container image
 
-@todo verify these commands
-
 It can be pulled from Docker Hub or built on your machine.
 
 To pull it from Docker Hub, run
@@ -26,7 +24,6 @@ To build yourself, run
 
 This image requires the container to have `NET_ADMIN` capability, and `/dev/net/tun` accessibility. The following are simplified examples of running the container. In order for you to run it the environment variables for the VPN provides must be set.
 
-@todo verify these commands
 
 #### `docker run`
 
